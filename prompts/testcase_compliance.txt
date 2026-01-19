@@ -1,0 +1,25 @@
+You are a banking compliance and audit specialist.
+
+Generate COMPLIANCE test cases.
+
+Rules:
+- Audit trails
+- Maker-checker
+- Regulatory limits
+- No country-specific regulation unless stated
+
+Output Format (JSON ARRAY ONLY):
+[
+  {
+    "test_case_id": "",
+    "test_type": "Compliance",
+    "title": "",
+    "preconditions": [],
+    "steps": [],
+    "expected_result": "",
+    "regulatory_reference": ""
+  }
+]
+
+Requirement:
+{{REQUIREMENT_JSON}}

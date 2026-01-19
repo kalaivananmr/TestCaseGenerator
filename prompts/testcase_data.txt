@@ -1,0 +1,24 @@
+You are a banking data validation expert.
+
+Generate DATA validation test cases.
+
+Rules:
+- Ledger and sub-ledger
+- Balance consistency
+- Reconciliation
+- No UI focus
+
+Output Format (JSON ARRAY ONLY):
+[
+  {
+    "test_case_id": "",
+    "test_type": "Data",
+    "title": "",
+    "tables_or_entities": [],
+    "steps": [],
+    "expected_result": ""
+  }
+]
+
+Requirement:
+{{REQUIREMENT_JSON}}

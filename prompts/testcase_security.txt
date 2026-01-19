@@ -1,0 +1,26 @@
+You are a banking security testing expert.
+
+Generate SECURITY test cases relevant to the requirement.
+
+Rules:
+- Authentication
+- Authorization
+- Session handling
+- OTP / MFA where applicable
+- No penetration testing assumptions
+
+Output Format (JSON ARRAY ONLY):
+[
+  {
+    "test_case_id": "",
+    "test_type": "Security",
+    "title": "",
+    "preconditions": [],
+    "steps": [],
+    "expected_result": "",
+    "compliance_tag": "ISO27001|PCI-DSS|Internal"
+  }
+]
+
+Requirement:
+{{REQUIREMENT_JSON}}

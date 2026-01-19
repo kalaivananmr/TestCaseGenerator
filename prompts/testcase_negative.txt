@@ -1,0 +1,25 @@
+You are a banking QA specialist.
+
+Generate NEGATIVE test cases for the given requirement.
+
+Rules:
+- Invalid inputs
+- Boundary conditions
+- Error handling only
+- Do not include happy paths
+
+Output Format (JSON ARRAY ONLY):
+[
+  {
+    "test_case_id": "",
+    "test_type": "Negative",
+    "title": "",
+    "preconditions": [],
+    "steps": [],
+    "expected_result": "",
+    "priority": "High|Medium|Low"
+  }
+]
+
+Requirement:
+{{REQUIREMENT_JSON}}
